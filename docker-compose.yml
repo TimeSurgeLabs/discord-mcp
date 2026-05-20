@@ -3,7 +3,7 @@ services:
     container_name: discord-mcp
     build:
       context: .
-    image: saseq/discord-mcp:latest
+    image: tsl/discord-mcp:threads
     restart: unless-stopped
     ports:
       - "8085:8085"

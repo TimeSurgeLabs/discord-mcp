@@ -330,6 +330,10 @@ Remote MCP Connector:
 - [`add_reaction`](): Add a reaction (emoji) to a specific message
 - [`remove_reaction`](): Remove a specified reaction (emoji) from a message
 
+#### Thread Management
+- [`create_thread`](): Create a public or private thread in a text or announcement channel, optionally from an existing message
+- [`list_active_threads`](): List all active threads in the server
+
 #### Channel Management
 - [`create_text_channel`](): Create a new text channel
 - [`edit_text_channel`](): Edit settings of a text channel (name, topic, nsfw, slowmode, category, position)
